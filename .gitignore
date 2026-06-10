@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+*.zip
+*.csv
+*.parquet
+Untitled.ipynb
+split_by_year/
+wide_table/
+rdbms/
