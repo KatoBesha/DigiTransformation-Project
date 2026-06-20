@@ -11,6 +11,16 @@ df = pd.read_sql(
     conn
 )
 
+if st.button("Prepare Data for Downstream Applications"):
+
+    df.to_csv(
+        "analytics_input.csv",
+        index=False
+    )
+
+    st.success(
+        "analytics_input.csv has been created."
+    )
 
 st.title("Air Quality Monitoring Dashboard")
 
