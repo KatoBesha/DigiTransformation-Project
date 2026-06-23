@@ -1,0 +1,7 @@
+dash==4.3.0
+dash-bootstrap-components==2.0.4
+plotly
+pandas
+sqlalchemy
+psycopg2-binary
+gunicorn
